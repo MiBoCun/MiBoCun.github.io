@@ -48,5 +48,8 @@ img:hover{
     img{
         width: 40px;
     }
+    #textPart{
+        width:95%;
 
+    }
 }
