@@ -2,42 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
-    <style>
-        htm,body{
-            height: 100%;
-            background-color:#000;
-            color:#fff;
-            font-size: 25px;
-        }
-        #show{
-            width: 800px;
-            height: 500px;
-            position: relative;
-
-        }
-
-
-    </style>
-</head>
+    <title>MiBoCun</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+   </head>
 <body>
-<p id="sto" style="display:none;">Hello!  Welcome to my blog.First of all, let me introduce myself.……emmmmm   </p>
-<p id="show"></p>
+<h1 id="texTitle">Welcome to my github blog</h1>
+<p id="textPart"></p>
 </body>
 
 <script>
-    window.onload=function(){
-        var story = document.getElementById('sto');
-        var s = document.getElementById('show');
-        var a = story.innerHTML.slice("");
-        console.log(typeof a);
-        var i = 0;
-        timer=setInterval(function(){
-            s.innerHTML=story.innerHTML.substring(0,i)
-            i++;
-            if(s.innerHTML==story.innerHTML){clearInterval(timer);};
-        },100);
-    }
+
 
 </script>
 </html>

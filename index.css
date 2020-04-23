@@ -1,0 +1,21 @@
+
+htm,body {
+    height: 100%;
+    font-size: 25px;
+    background-color: #1ee28f;
+    font-family: lft-etica,sans-serif;
+}
+
+#texTitle{
+    text-align: center;
+}
+#textPart{
+    width:800px;
+    color: #323336;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    word-wrap:break-word;
+
+}
