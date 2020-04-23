@@ -1,21 +1,35 @@
-
+*{
+    margin:0px;
+    padding:0px;
+}
 htm,body {
     height: 100%;
     font-size: 25px;
     background-color: #1ee28f;
     font-family: lft-etica,sans-serif;
 }
+#langBox{
+    float: right;
+    margin-right: 30px;
+    margin-top:-50px;
+    z-index: 10;
+}
+img{
+    width: 30px;
+    transition:all ease-in-out 1s;
+}
+img:hover{
+    transform: rotate(360deg);
 
+}
 #texTitle{
+    margin-top:20px;
     text-align: center;
 }
 #textPart{
-    width:800px;
+    width: 800px;
     color: #323336;
-    position: absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%,-50%);
+    margin: 80px auto;
     word-wrap:break-word;
 
 }
