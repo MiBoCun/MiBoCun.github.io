@@ -46,10 +46,15 @@ img:hover{
 }
 @media screen and(max-width: 400px) {
     img{
-        width: 40px;
+        width:50px;
     }
     #textPart{
         width:95%;
+
+    }
+    #textPart{
+
+        font-size:35px;
 
     }
 }
