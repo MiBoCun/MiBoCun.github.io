@@ -7,6 +7,9 @@ htm,body {
     background-color: #1ee28f;
     font-family: lft-etica,sans-serif;
 }
+h1{
+    font-size:40px;
+}
 #langBox{
     float: right;
     margin-right: 30px;
@@ -18,7 +21,7 @@ img{
     transition:all ease-in-out 1s;
 }
 img:hover{
-    transform: rotate(360deg);
+    transform: scale(103);
 
 }
 #texTitle{
@@ -34,12 +37,15 @@ img:hover{
     word-wrap:break-word;
 }
 .chineseText{
-    letter-spacing:3px;
-    font-size: 18px;
     font-family: arial,'Microsoft Yahei','微软雅黑';
 }
 .englishText{
-
     font-family: lft-etica,sans-serif;
+
+}
+@media screen and(max-width: 400px) {
+    img{
+        width: 40px;
+    }
 
 }
