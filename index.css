@@ -31,5 +31,15 @@ img:hover{
     color: #323336;
     margin: 80px auto;
     word-wrap:break-word;
+}
+.chineseText{
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-family: arial,'Microsoft Yahei','微软雅黑';
+}
+.englishText{
+    font-size:25px;
+    font-family: lft-etica,sans-serif;
 
 }
