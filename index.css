@@ -4,7 +4,6 @@
 }
 htm,body {
     height: 100%;
-    font-size: 25px;
     background-color: #1ee28f;
     font-family: lft-etica,sans-serif;
 }
@@ -29,17 +28,18 @@ img:hover{
 #textPart{
     width: 800px;
     color: #323336;
-    margin: 80px auto;
+    margin:40px auto;
+    font-size:25px;
+    line-height:35px;
     word-wrap:break-word;
 }
 .chineseText{
-    line-height: 30px;
-    letter-spacing: 3px;
+    letter-spacing:3px;
     font-size: 18px;
     font-family: arial,'Microsoft Yahei','微软雅黑';
 }
 .englishText{
-    font-size:25px;
+
     font-family: lft-etica,sans-serif;
 
 }
