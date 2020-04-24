@@ -18,12 +18,7 @@ h1{
 }
 img{
     width: 30px;
-    margin-right: 10px;
-    transition:all ease-in-out .5s;
-}
-img:hover{
-    transform: scale(1.2);
-
+    margin-right: 10px;    
 }
 #texTitle{
     margin-top:20px;
@@ -42,7 +37,6 @@ img:hover{
 }
 .englishText{
     font-family: lft-etica,sans-serif;
-
 }
 @media screen and(max-width: 400px) {
     img{
@@ -50,11 +44,8 @@ img:hover{
     }
     #textPart{
         width:95%;
-
     }
     #textPart{
-
         font-size:35px;
-
     }
 }
